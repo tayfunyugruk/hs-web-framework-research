@@ -1,0 +1,534 @@
+{
+  "sections": {
+    "1655835269bee1a727": {
+      "type": "image-banner",
+      "blocks": {
+        "165583526965f268ea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BONUS FREE GIFT WHEN YOU SUBSCRIBE",
+            "heading_size": "large"
+          }
+        },
+        "165583526965f268ea-1": {
+          "type": "text",
+          "settings": {
+            "text": "LIMITED TIME SPECIAL OFFER: Free Cooling Mist and Lucid Clarity Mints worth $38",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "165583526965f268ea-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165583526965f268ea-0",
+        "165583526965f268ea-1",
+        "165583526965f268ea-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tailored-products.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1654283884c1da5135": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654283883e63398b2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FREE CLARITY MINTS - $19 value",
+            "heading_size": "h2"
+          }
+        },
+        "1654283883e63398b2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lucid Lift, a refreshing mint specially formulated to combat brain fog and keep you feeling sharp,* features a balanced blend of naturally powerful ingredients that alleviate mental fatigue and exhaustion brought on by menopause.*<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "1654283883e63398b2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654283883e63398b2-0",
+        "1654283883e63398b2-1",
+        "1654283883e63398b2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/phenology_lucidlift_3x4_03.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165600321675e8d542": {
+      "type": "image-with-text",
+      "blocks": {
+        "1656003216b1a8729e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FREE LAVENDER AROMATHERAPY OIL - $19 value",
+            "heading_size": "h1"
+          }
+        },
+        "1656003216b1a8729e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1656003216b1a8729e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1656003216b1a8729e-0",
+        "1656003216b1a8729e-1",
+        "1656003216b1a8729e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/phenology_uplift_3x4_02.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16560016720abe4f04": {
+      "type": "multicolumn",
+      "blocks": {
+        "1656001672c137b3c0-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "title": "Boosted Gummies",
+            "text": "<p>A step above, our Morning & Evening Gummy Duo with Beauty and Sleep Boosters provide more focused support through a transformative relief regimen clinically designed to calm symptoms of menopause while enhancing your health and beauty at the same time.*<\/p>",
+            "link_label": "BUY NOW",
+            "link": ""
+          }
+        },
+        "1656001672c137b3c0-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.jpg",
+            "title": "Morning + Evening",
+            "text": "<p>Designed to slide easily into your daily routine, our Morning & Evening Gummy Duo supplements provide transformative relief with our patent-pending combination of saffron extract and genisten to soothe symptoms of menopause while enhancing your health at the same time.*  <\/p>",
+            "link_label": "BUY NOW",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1656001672c137b3c0-0",
+        "1656001672c137b3c0-1"
+      ],
+      "settings": {
+        "title": "SUBSCRIBE NOW FOR YOUR FREE GIFT",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "disabled": true,
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "The most advanced natural menopause gummies",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "e7636589-e4cc-4f15-9a4a-883dc79d9468": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "57bd007f-e653-464f-ab5f-bfe8737777ec": {
+          "type": "text",
+          "settings": {
+            "text": "Drug Free| Estrogen Free | No Parabens | No Mineral Oil  | No Phthalates | No Sulfates",
+            "text_style": "uppercase"
+          }
+        },
+        "1601ed63-afb2-41ef-8a46-d03fc9d834b3": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ACTIVE INGREDIENTS - BEAUTIFUL DAY",
+            "icon": "leaf",
+            "content": "<p><strong>Saffron<\/strong><br\/>A powerful spice from the <em>Crocus sativus<\/em> flower, clinically shown to reduce stress and anxiety to support a positive mood and restful sleep.*<\/p><p><\/p><p><strong>Genistein<\/strong><\/p><p>An isoflavone found in red clover, fava beans and alfalfa that gently interacts with your body’s estrogen receptors to reduce the frequency and duration of hot flashes.*<\/p><p><\/p><p><strong>Vitamin B6<\/strong><\/p><p>An important vitamin for brain function, development, and energy at the cellular level*<\/p><p><\/p><p><strong>Vitamin B12<\/strong><\/p><p>A necessary vitamin for red blood cell development, maintenance of the nervous system, brain health, and our metabolism*<\/p><p><\/p><p><strong>Lutein and Zeaxanthin<\/strong><\/p><p>Carotenoids extracted from marigolds with antioxidant properties that have been clinically shown to promote skin hydration and elasticity and to support healthy vision.*<\/p><p>Biotin<\/p><p>An essential vitamin that promotes keratin formation for strong hair and nails.*<\/p><p><\/p><p><strong>Vitamin D3 (Vegan)<\/strong><\/p><p>An algae-derived form of Vitamin D3 (cholecalciferol) made from a 100% non-GMO plant source (algae), supports immune health, bone health and healthy calcium metabolism*<\/p><p><\/p><p><strong>Vitamin K2<\/strong><\/p><p>A complement to our Vegan form of Vitamin D3, Vitamin K (menaquinone-7 or MK7) works together with vitamin D to help the body use calcium more efficiently to support bone and heart health*<br\/><br\/>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ACTIVE INGREDIENTS - ESSENTIAL EVENING",
+            "icon": "leaf",
+            "content": "<p><strong>Cannabidiol<\/strong>Derived from the hemp plant, CBD interacts with the body’s endocannabinoid system (EC) to promote a sense of calmness and wellbeing<strong>Saffron<\/strong>A powerful spice from the Crocus sativus flower, clinically shown to reduce stress and anxiety to support a positive mood and restful sleep.*<br\/><br\/><strong>Genistein<\/strong>An isoflavone found in red clover, fava beans and alfalfa that gently interacts with your body’s estrogen receptors to reduce the frequency and duration of hot flashes.<br\/><br\/><strong>Melatonin<\/strong>Melatonin is your body’s internal sleep signal and has been clinically shown to help you fall asleep faster and improve sleep quality as well as supporting healthy libido\/sexual desire in perimenopausal women.*<br\/><br\/><strong>Chamomile Extract<\/strong>A flower that’s traditionally used to promote relaxation and prized for its calming aroma<br\/><br\/><br\/>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SYMPTOMS",
+            "icon": "star",
+            "content": "<p>Thinning\/brittle hair*<br\/>Sleep*<br\/>Low libido*<br\/>Skin changes*<br\/>Hot flashes*<br\/>Night sweats*<br\/>Mood swings*<br\/>Brain fog*<br\/>Fatigue*<br\/>Irritability*<br\/>Occasional anxiety*<br\/>Gloomy mood*<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "e7636589-e4cc-4f15-9a4a-883dc79d9468",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "57bd007f-e653-464f-ab5f-bfe8737777ec",
+        "1601ed63-afb2-41ef-8a46-d03fc9d834b3",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-2",
+        "collapsible-row-1",
+        "collapsible-row-3",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "medium",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "1655077415288e7f15": {
+      "type": "rich-text",
+      "blocks": {
+        "1655077415fab86c8f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vegan, Drug Free, Estrogen Free, No GMOs, No Synthetic Dyes, No Artificial Flavors",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1655077415fab86c8f-0"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16542840597f525cec": {
+      "type": "multicolumn",
+      "blocks": {
+        "165428405949de16bc-0": {
+          "type": "column",
+          "settings": {
+            "title": "Ingredients from nature synced to your natural beauty and rhythm",
+            "text": "<p>Years of experience, research, and exploration go into creating scientifically-validated ingredients from nature for our holistic remedies. All Phenology products are science-backed, even our packaging. Oxygen and light break down critical active ingredients in foods and nutritional products so Phenology products are presented in light-blocking and oxygen impermeable dark violet biophotonic glass packaging. This patented glass preserves essential active ingredients and assures that you are always getting the best of science and nature delivered to your door.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165428405949de16bc-0"
+      ],
+      "settings": {
+        "title": "SCIENCE-BACKED. NATURALLY POWERFUL.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1654802788c1ff0acc": {
+      "type": "pressbar-brand",
+      "blocks": {
+        "4667ed8f-91a6-4cd5-af06-ddd2a80b2f5f": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Allure.png",
+            "width_image": "99.71px",
+            "height_image": "40px"
+          }
+        },
+        "9370d3a6-d89b-4aa8-9824-3adcf65b4db9": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Vector.png",
+            "width_image": "278.37px",
+            "height_image": "20px"
+          }
+        },
+        "a737c579-ce7d-4df8-b726-92600e68dcca": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Vector_1.png",
+            "width_image": "239.07px",
+            "height_image": "20px"
+          }
+        },
+        "2f49f21e-75bd-4762-a427-578c513d5b3e": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Vector_2.png",
+            "width_image": "168px",
+            "height_image": "20px"
+          }
+        }
+      },
+      "block_order": [
+        "4667ed8f-91a6-4cd5-af06-ddd2a80b2f5f",
+        "9370d3a6-d89b-4aa8-9824-3adcf65b4db9",
+        "a737c579-ce7d-4df8-b726-92600e68dcca",
+        "2f49f21e-75bd-4762-a427-578c513d5b3e"
+      ],
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "165487989763755168": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "5fbe6f1b-aff0-4364-a12c-9da3fe0bef5b": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{ product }}"
+          }
+        }
+      },
+      "block_order": [
+        "5fbe6f1b-aff0-4364-a12c-9da3fe0bef5b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1656001675ca6860f9": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "collection": "sampler",
+        "products_to_show": 4,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "show_secondary_image": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1656004027a3ce10d6": {
+      "type": "image-banner",
+      "blocks": {
+        "1656004027c77a3f33-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "large"
+          }
+        },
+        "1656004027c77a3f33-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "1656004027c77a3f33-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1656004027c77a3f33-0",
+        "1656004027c77a3f33-1",
+        "1656004027c77a3f33-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/myphenologyhome2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "1655835269bee1a727",
+    "1654283884c1da5135",
+    "165600321675e8d542",
+    "16560016720abe4f04",
+    "main",
+    "1655077415288e7f15",
+    "16542840597f525cec",
+    "1654802788c1ff0acc",
+    "product-recommendations",
+    "165487989763755168",
+    "1656001675ca6860f9",
+    "1656004027a3ce10d6"
+  ]
+}

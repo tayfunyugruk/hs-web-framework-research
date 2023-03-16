@@ -1,0 +1,321 @@
+{
+  "sections": {
+    "rewards-page": {
+      "type": "rewards",
+      "settings": {
+      }
+    },
+    "9f453f35-4be8-4bec-9bac-adb35cc42931": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14562406826049__9f453f35-4be8-4bec-9bac-adb35cc42931-1671224681f3fa29a9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Year New You.",
+            "heading_size": "large"
+          }
+        },
+        "template--14562406826049__9f453f35-4be8-4bec-9bac-adb35cc42931-1671224681f3fa29a9-1": {
+          "type": "text",
+          "settings": {
+            "text": "A better Rountine to address all to concerns of Menopause",
+            "text_style": "body"
+          }
+        },
+        "template--14562406826049__9f453f35-4be8-4bec-9bac-adb35cc42931-1671224681f3fa29a9-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14562406826049__9f453f35-4be8-4bec-9bac-adb35cc42931-1671224681f3fa29a9-0",
+        "template--14562406826049__9f453f35-4be8-4bec-9bac-adb35cc42931-1671224681f3fa29a9-1",
+        "template--14562406826049__9f453f35-4be8-4bec-9bac-adb35cc42931-1671224681f3fa29a9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/phenology_hero_beautifulday_2x_b7574281-d025-4547-b3e8-0f14cc6dbe72.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "top-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "right",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "b2fb5c39-38db-4ec7-acef-9a91edadaa00": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Campaign Overview",
+            "heading_size": "h1"
+          }
+        },
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-0",
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-1",
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ae4db809-2ca4-4166-8cfd-58575cf9ae2f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14562406826049__ae4db809-2ca4-4166-8cfd-58575cf9ae2f-167122468158a6c94c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bundle 1",
+            "heading_size": "h1"
+          }
+        },
+        "template--14562406826049__ae4db809-2ca4-4166-8cfd-58575cf9ae2f-167122468158a6c94c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is where where we add things<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14562406826049__ae4db809-2ca4-4166-8cfd-58575cf9ae2f-167122468158a6c94c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14562406826049__ae4db809-2ca4-4166-8cfd-58575cf9ae2f-167122468158a6c94c-0",
+        "template--14562406826049__ae4db809-2ca4-4166-8cfd-58575cf9ae2f-167122468158a6c94c-1",
+        "template--14562406826049__ae4db809-2ca4-4166-8cfd-58575cf9ae2f-167122468158a6c94c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/myphenologyhome2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d365c967-98e6-4d89-8b0f-1d0157c12b58": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bundle 2",
+            "heading_size": "h1"
+          }
+        },
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-0",
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-1",
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tailored-products.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c75f2212-157e-45cd-a9fb-2b0705d18b38": {
+      "type": "collage",
+      "blocks": {
+        "template--14562406826049__c75f2212-157e-45cd-a9fb-2b0705d18b38-167122466255f04627-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "brain-fog"
+          }
+        },
+        "template--14562406826049__c75f2212-157e-45cd-a9fb-2b0705d18b38-167122466255f04627-1": {
+          "type": "product",
+          "settings": {
+            "product": "morning-evening-gummy-duo-supplements",
+            "second_image": true
+          }
+        },
+        "b05138a9-758f-4798-b4e9-e9858b7147fc": {
+          "type": "product",
+          "settings": {
+            "product": "4-in-1-probiotic",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14562406826049__c75f2212-157e-45cd-a9fb-2b0705d18b38-167122466255f04627-2",
+        "template--14562406826049__c75f2212-157e-45cd-a9fb-2b0705d18b38-167122466255f04627-1",
+        "b05138a9-758f-4798-b4e9-e9858b7147fc"
+      ],
+      "settings": {
+        "heading": "Bundle 3",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "color_scheme": "accent-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "de4eecf3-95e0-45e7-942c-16d0b7d533ed": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/phenology_uplift_3x4_02.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/phenology_lucidlift_3x4_02.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customized-content.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-0",
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-1",
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-2"
+      ],
+      "settings": {
+        "title": "Bundle 4",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "533e1540-62da-4a87-8a4f-0cfff4392251": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14562406826049__533e1540-62da-4a87-8a4f-0cfff4392251-1671225850c35828e9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Closing Ideas",
+            "heading_size": "h1"
+          }
+        },
+        "template--14562406826049__533e1540-62da-4a87-8a4f-0cfff4392251-1671225850c35828e9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14562406826049__533e1540-62da-4a87-8a4f-0cfff4392251-1671225850c35828e9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14562406826049__533e1540-62da-4a87-8a4f-0cfff4392251-1671225850c35828e9-0",
+        "template--14562406826049__533e1540-62da-4a87-8a4f-0cfff4392251-1671225850c35828e9-1",
+        "template--14562406826049__533e1540-62da-4a87-8a4f-0cfff4392251-1671225850c35828e9-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "rewards-page",
+    "9f453f35-4be8-4bec-9bac-adb35cc42931",
+    "b2fb5c39-38db-4ec7-acef-9a91edadaa00",
+    "ae4db809-2ca4-4166-8cfd-58575cf9ae2f",
+    "d365c967-98e6-4d89-8b0f-1d0157c12b58",
+    "c75f2212-157e-45cd-a9fb-2b0705d18b38",
+    "de4eecf3-95e0-45e7-942c-16d0b7d533ed",
+    "533e1540-62da-4a87-8a4f-0cfff4392251"
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#FFFFFF",
+    "colors_accent_1": "#2c00e3",
+    "colors_accent_2": "#00552b",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#f7f3f0",
+    "colors_background_2": "#e7dacf",
+    "type_header_font": "domine_n4",
+    "type_body_font": "helvetica_n4",
+    "body_scale": 105,
+    "page_width": 1400,
+    "buttons_border_thickness": 0,
+    "buttons_radius": 40,
+    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_vertical_offset": -12,
+    "card_style": "standard",
+    "card_color_scheme": "accent-2",
+    "text_boxes_border_thickness": 0,
+    "text_boxes_shadow_opacity": 0,
+    "text_boxes_shadow_horizontal_offset": 0,
+    "text_boxes_shadow_vertical_offset": 0,
+    "media_border_thickness": 0,
+    "drawer_border_thickness": 3,
+    "drawer_shadow_opacity": 0,
+    "accent_icons": "text",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/phenologylogo.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#f7f3f0",
+    "checkout_accent_color": "#00552b",
+    "checkout_button_color": "#00552b",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Free Shipping On All Orders",
+              "color_scheme": "inverse",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/Phenology_Logo-Black.png",
+          "logo_width": 90,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": false,
+          "enable_sticky_header": false,
+          "margin_bottom": 0
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "e96b78ed-f77c-4a80-bf51-bdd06f008f99": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Shop",
+              "menu": "footer"
+            }
+          },
+          "17350b92-91c9-48f1-89d1-1d2ce7194788": {
+            "type": "text",
+            "settings": {
+              "heading": "Guidance",
+              "subtext": "<p><\/p><p><a href=\"https:\/\/www.myphenology.com\/topics\">Editorial<\/a><a href=\"https:\/\/www.myphenology.com\/assessment\"><br\/>Take the Assessment<\/a><a href=\"https:\/\/www.myphenology.com\/discover\"><br\/>Discover<\/a><a href=\"https:\/\/www.myphenology.com\/faq\"><br\/>FAQ<\/a><a href=\"https:\/\/www.myphenology.com\/manuals\"><br\/>Inne Manuals<\/a><\/p>"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "10ff85d9-806e-4a4d-81c1-a4805b348d74": {
+            "type": "text",
+            "settings": {
+              "heading": "Team",
+              "subtext": "<p><a href=\"https:\/\/www.myphenology.com\/team\">Team<\/a><a href=\"https:\/\/www.myphenology.com\/our-approach\"><br\/>Approach<\/a><a href=\"https:\/\/www.myphenology.com\/contact-us\"><br\/>Contact Us<\/a><\/p>"
+            }
+          },
+          "eab04465-01bf-4320-bd8a-ac6339815683": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<p><a href=\"https:\/\/www.instagram.com\/myphenology\/\" target=\"_blank\">Instagram<\/a><a href=\"https:\/\/www.linkedin.com\/company\/phenologylabs\/\" target=\"_blank\"><br\/>LinkedIn<\/a><a href=\"https:\/\/www.facebook.com\/MyPhenology\/\" target=\"_blank\"><br\/>Facebook<\/a><\/p>"
+            }
+          },
+          "c54dce92-daab-49a7-9a4d-e97836f7d88c": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Legal",
+              "menu": "footer-legal"
+            }
+          },
+          "footer-2": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<p>The content provided and shared on this website is for informational, educational, and entertainment purposes only and is not meant to replace advice provided by your doctor, or any other healthcare professional. Talk to your doctor before starting any new health routine.<\/p><p><\/p><p>© 2022 All Rights Reserved<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "e96b78ed-f77c-4a80-bf51-bdd06f008f99",
+          "17350b92-91c9-48f1-89d1-1d2ce7194788",
+          "footer-0",
+          "footer-1",
+          "10ff85d9-806e-4a4d-81c1-a4805b348d74",
+          "eab04465-01bf-4320-bd8a-ac6339815683",
+          "c54dce92-daab-49a7-9a4d-e97836f7d88c",
+          "footer-2"
+        ],
+        "settings": {
+          "color_scheme": "inverse",
+          "newsletter_enable": true,
+          "newsletter_heading": "SIGN UP FOR EXCLUSIVE ACCESS.",
+          "newsletter_text": "Reclaim your best self with a menopause wellness program tailored to your unique biology",
+          "show_social": false,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false,
+          "margin_top": 0,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "7570552984445421165": {
+        "type": "shopify:\/\/apps\/yotpo-product-reviews-photos\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "8962992520437913685": {
+        "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/loader-app-embed-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
+        "disabled": true,
+        "settings": {
+          "inject_modules_loader": true,
+          "inject_sdk_loader": true
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "17151115064775110295": {
+        "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
+        "disabled": false,
+        "settings": {
+          "color_brand": "#2c00e3",
+          "contrast_color": "#ffffff",
+          "color_brand_secondary": "#00552b",
+          "corners": "16px",
+          "app_background": "#f9f8f4",
+          "app_container": 1200,
+          "app_vertical_padding": 32,
+          "images_aspect_ratio": "1",
+          "cards_background": "#f7f3f0",
+          "cards_border_color": "rgba(0,0,0,0)"
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 90
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "link_list",
+              "settings": {
+                "heading": "Info"
+              }
+            },
+            "footer-2": {
+              "type": "text",
+              "settings": {
+                "heading": "Our mission"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social": true,
+            "enable_country_selector": false,
+            "enable_language_selector": false,
+            "margin_top": 48
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "e7636589-e4cc-4f15-9a4a-883dc79d9468": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1601ed63-afb2-41ef-8a46-d03fc9d834b3": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "Free Shipping + 30 Day Money Back Gaurentee",
+            "text_style": "uppercase"
+          }
+        },
+        "57bd007f-e653-464f-ab5f-bfe8737777ec": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Drug Free| Estrogen Free | No Parabens | No Mineral Oil  | No Phthalates | No Sulfates",
+            "text_style": "uppercase"
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Key ingredients",
+            "icon": "none",
+            "content": "<p><strong>Saffron:<\/strong> A powerful spice from the Crocus sativus flower, clinically shown to reduce stress and anxiety to support a positive mood and restful sleep.*<\/p><p><strong>Genistein:<\/strong> Found in red clover, fava beans and alfalfa, an isoflavone that interacts with your body’s estrogen receptors.*<\/p><p><strong>Vitamin B6:<\/strong> An important vitamin for brain function, development, and energy at the cellular level*<\/p><p><strong>Vitamin B12:<\/strong> A necessary vitamin for red blood cell development, maintenance of the nervous system, brain health, and our metabolism*Vitamin <\/p><p><strong>D3 (Vegan):<\/strong> An algae-derived form of Vitamin D3 (cholecalciferol) made from a 100% non-GMO plant source (algae), supports immune health, bone health and healthy calcium metabolism*<\/p><p><strong>Vitamin K2A:<\/strong> A complement to our Vegan form of Vitamin D3, Vitamin K (menaquinone-7 or MK7) works together with vitamin D to help the body use calcium more efficiently to support bone and heart health*<\/p><p><strong>Chamomile Extract:<\/strong> A flower that’s traditionally used to promote relaxation and prized for its calming aroma<\/p><p>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How it works",
+            "icon": "none",
+            "content": "<p>Each of our gummies is created intentionally to correspond to every part of your day. Designed to be taken in the morning and at night, our daily supplement regimen provides key nutrients you need and bioactive ingredients for the symptom relief you want.<br\/><br\/><strong>SUGGESTED USE:<\/strong><\/p><p>— Take two (2) Morning gummies in the morning daily (preferably with a meal)<\/p><p>— Take two (2) Evening gummies every evening before you go to bedThe benefits typically occur after 12 weeks of daily useEach jar contains 60 gummies (a 30 day supply.)<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Science",
+            "icon": "none",
+            "content": "<p><strong>Saffron & Genistein - How They Work Together:<\/strong>Our patent-pending combination of saffron extract and genistein contains clinically proven ingredients to support a holistic mind, body regimen. Soothe the symptoms of menopause like hot flashes and night sweats, while supporting a healthy, balanced mood and good night’s rest*.<br\/><br\/><strong>Saffron extract (crocus sativus):<\/strong><\/p><p>Saffron (coming from the stigma of the crocus flower) is a natural plant extract well known for its rich taste, but it also holds a strong base of evidence supporting improvements in sleep and mood* when taken in twice daily doses of 14 mg (for a total of 28 mg\/day) as we have formulated between the AM\/PM products.<\/p><p>Randomized controlled trials looking at the effect of saffron extract and clinical endpoints that relate to mood, anxiety and sleep have been consistently positive, and relevant to the perimenopausal population.*<\/p><p>Saffron is generally recognized as safe in supplemental form and in use as a spice and the yellow-orange hue of the AM gummies can be naturally attributed to the saffron extract.<br\/><br\/><strong>Genistein:<\/strong><\/p><p>Many studies have shown benefits of soy isoflavones on reduction of hot flash frequency and duration in perimenopausal women.* Specifically, the single isoflavone “genistein”, in a 30mg\/day dose, has been effective in improving hot flash frequency, duration and night sweat incidence - reducing hot flashes by up to 50% compared to baseline.*†<br\/><br\/><strong>Vitamin B6:<\/strong><\/p><p>Vitamin B6 plays an important role in generating energy that the cells of the body can use by helping the body use and store energy from protein and carbohydrates in foods. It also helps the body form hemoglobin, the substance in red blood cells that carries oxygen around the body. Not getting enough vitamin B6 has been linked to negative impacts on brain health that may result in confusion, in addition it can also cause forms of anemia due to not being able to form enough hemoglobin, which in turn may cause feelings of fatigue, weakness or tiredness (commonly referred to as “brain fog”). Phenology's Daily Duet gummies contain 100% of the Daily Value of vitamin B6 for women in the menopausal age range.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "e7636589-e4cc-4f15-9a4a-883dc79d9468",
+        "vendor",
+        "title",
+        "price",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "1601ed63-afb2-41ef-8a46-d03fc9d834b3",
+        "buy_buttons",
+        "caption",
+        "57bd007f-e653-464f-ab5f-bfe8737777ec",
+        "collapsible-row-2",
+        "collapsible-row-1",
+        "collapsible-row-0",
+        "collapsible-row-3",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "medium",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "tmp-product-dosage" : {
+      "type": "product-dosage",
+      "settings": {
+
+      }
+    },
+    "e805d53b-e5bc-48a0-a231-485cbd201f4d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14877071278145__e805d53b-e5bc-48a0-a231-485cbd201f4d-167647404821a8bc6d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "As seen in",
+            "heading_size": "h2"
+          }
+        },
+        "template--14877071278145__e805d53b-e5bc-48a0-a231-485cbd201f4d-167647404821a8bc6d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14877071278145__e805d53b-e5bc-48a0-a231-485cbd201f4d-167647404821a8bc6d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14877071278145__e805d53b-e5bc-48a0-a231-485cbd201f4d-167647404821a8bc6d-0",
+        "template--14877071278145__e805d53b-e5bc-48a0-a231-485cbd201f4d-167647404821a8bc6d-1",
+        "template--14877071278145__e805d53b-e5bc-48a0-a231-485cbd201f4d-167647404821a8bc6d-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "1654802788c1ff0acc": {
+      "type": "pressbar-brand",
+      "blocks": {
+        "638df27e-3016-4b7d-9663-e88a1727f6ef": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Screen_Shot_2022-11-14_at_4.41.26_PM.png",
+            "width_image": "auto",
+            "height_image": "auto"
+          }
+        },
+        "a737c579-ce7d-4df8-b726-92600e68dcca": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Screen_Shot_2022-11-14_at_4.41.36_PM.png",
+            "width_image": "",
+            "height_image": "50"
+          }
+        },
+        "4667ed8f-91a6-4cd5-af06-ddd2a80b2f5f": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Screen_Shot_2022-11-14_at_4.43.56_PM.png",
+            "width_image": "99.71px",
+            "height_image": ""
+          }
+        },
+        "9370d3a6-d89b-4aa8-9824-3adcf65b4db9": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Screen_Shot_2022-11-14_at_4.41.41_PM.png",
+            "width_image": "278.37px",
+            "height_image": ""
+          }
+        },
+        "2f49f21e-75bd-4762-a427-578c513d5b3e": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Screen_Shot_2022-11-14_at_4.41.31_PM.png",
+            "width_image": "",
+            "height_image": "50"
+          }
+        }
+      },
+      "block_order": [
+        "638df27e-3016-4b7d-9663-e88a1727f6ef",
+        "a737c579-ce7d-4df8-b726-92600e68dcca",
+        "4667ed8f-91a6-4cd5-af06-ddd2a80b2f5f",
+        "9370d3a6-d89b-4aa8-9824-3adcf65b4db9",
+        "2f49f21e-75bd-4762-a427-578c513d5b3e"
+      ],
+      "custom_css": [
+        ".press-bar-icons {padding-top: 0px;}"
+      ],
+      "settings": {
+      }
+    },
+    "1654283884c1da5135": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654283883e63398b2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Science-backed. Naturally powerful.",
+            "heading_size": "h2"
+          }
+        },
+        "1654283883e63398b2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"There is surprisingly consistent evidence on the benefits of saffron on mood, stress, and sleep, areas that are so important for this life stage. That's why it's in our gummies, along with genistein, which mediates physical symptoms such as hot flashes. Together, these ingredients deliver real benefits for both the body and mind.\"<\/p><p><\/p><p><strong>Dr. Kourtney Sims, MD - Obstetrics & Gynecology, Phenology Chief Medical Advisor<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "1654283883e63398b2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654283883e63398b2-0",
+        "1654283883e63398b2-1",
+        "1654283883e63398b2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/boosted-gummy-duo.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16542840597f525cec": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "165428405949de16bc-0": {
+          "type": "column",
+          "settings": {
+            "title": "'There is surprisingly consistent evidence on the benefits of saffron on mood, stress, and sleep, areas that are so important for this life stage. That's why it's in our gummies, along with genistein, which mediates physical symptoms such as hot flashes. Together, these ingredients deliver real benefits for both the body and mind.'",
+            "text": "<p>Dr. Kourtney Sims, MD - Obstetrics & Gynecology, Phenology Chief Medical Advisor<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165428405949de16bc-0"
+      ],
+      "settings": {
+        "title": "Science-backed. Naturally powerful.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3e685b9f-cac9-4233-bd9c-8ebeb5ff0186": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14877071278145__3e685b9f-cac9-4233-bd9c-8ebeb5ff0186-1676476979a3d62423-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do they work?",
+            "icon": "none",
+            "row_content": "<ul><li>Saffron has been used for its healing properties for centuries and is even featured on Aegean wall paintings in Ancient Thera. Saffron’s active components, safranal and crocin help increase serotonin, dopamine, and norepinephrine levels in your brain. Clinical trials have shown that 14 mg of saffron extract taken twice daily can balance your mood, supporting calmness and relaxation, and promoting better sleep patterns.*<br\/><br\/><\/li><li>Found in red clover, fava beans and alfalfa, genistein is an isoflavone, or phytoestrogen, which gently stimulates your body’s estrogen receptors, helping alleviate some of the effects of hormonal imbalances that occur during the menopausal transition.* The single isoflavone “genistein” in a 30 mg per day dose of our Morning+Evening gummies has been clinically shown to be effective in reducing the frequency and severity of hot flashes by more than 50%.*‡ Evans et al. Maturitas. 2011;68(2):189-169. PubMed https:\/\/pubmed.ncbi.nlm.nih.gov\/21163595<br\/><br\/><\/li><li>The Morning Gummies contain vitamins B6 and B12 to help combat brain fog and mental fatigue, and vegan D3 and K2 to promote bone and heart health.*<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "template--14877071278145__3e685b9f-cac9-4233-bd9c-8ebeb5ff0186-1676476979a3d62423-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does it take to work?",
+            "icon": "none",
+            "row_content": "<p>You may start to see benefits from the Morning and Evening gummies sooner, but it typically takes 12-16 weeks for our daily regimen to work best*. Clinical studies have shown significant benefits in about 4 weeks of daily use. You may start to notice improvements in your sleep after only a few days.*<\/p>",
+            "page": ""
+          }
+        },
+        "template--14877071278145__3e685b9f-cac9-4233-bd9c-8ebeb5ff0186-1676476979a3d62423-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does they have any side effects?",
+            "icon": "none",
+            "row_content": "<p>Side effects are unlikely for Phenology Gummies when taken as recommended. Consult with your doctor if you do experience any symptoms.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14877071278145__3e685b9f-cac9-4233-bd9c-8ebeb5ff0186-1676476979a3d62423-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need to take both morning & evening gummies",
+            "icon": "none",
+            "row_content": "<p>Yes. To maximize the clinically-proven benefits after approximately 3 months, our Morning+Evening gummies are both formulated with 15 mg of genistein and 14 mg of saffron in each serving. Taken twice daily in the morning and evening reaches the recommended 30 mg of genistein and 28 mg of saffron per day.<\/p>",
+            "page": ""
+          }
+        },
+        "066c5822-d707-42a9-a308-87c900c46ceb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I take this if I'm taking other medications or supplements?",
+            "icon": "none",
+            "row_content": "<p>We’ve carefully crafted our gummies to offer you an array of symptom support that’s efficient, easy, and delightful. We always recommend speaking with your healthcare provider before starting a new dietary supplement to ensure it works alongside any of your current health and wellness routines. Lucid Lift Mints can be taken as needed alongside the Phenology gummies.<\/p>",
+            "page": ""
+          }
+        },
+        "5d42c269-976d-4540-9911-a27362d0eb8b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this 3rd party lab tested?",
+            "icon": "none",
+            "row_content": "<p>All Phenology products are produced with rigorous standards in place and meet the requirements of 3rd party testing. All our products are made in accordance with FDA’s good manufacturing practices (GMP’s) and we require our manufacturers to validate the composition, strength, purity and identity of all our products.<\/p><p>DRUG FREE, ESTROGEN FREE, VEGAN, NO GMOS, NO SYNTHETIC DYES, NO ARTIFICIAL FLAVORS | Made in USA from US and imported ingredients | Science-backed<\/p>",
+            "page": ""
+          }
+        },
+        "4ebc63c2-4034-4333-9b62-4ff3009c1636": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this product FDA approved",
+            "icon": "none",
+            "row_content": "<p>All Phenology products are marketed in compliance with all appropriate US Food and Drug Administration (FDA) regulations. All of our products are produced under FDA Good Manufacturing Practices (GMPs) and are third-party tested.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14877071278145__3e685b9f-cac9-4233-bd9c-8ebeb5ff0186-1676476979a3d62423-0",
+        "template--14877071278145__3e685b9f-cac9-4233-bd9c-8ebeb5ff0186-1676476979a3d62423-1",
+        "template--14877071278145__3e685b9f-cac9-4233-bd9c-8ebeb5ff0186-1676476979a3d62423-2",
+        "template--14877071278145__3e685b9f-cac9-4233-bd9c-8ebeb5ff0186-1676476979a3d62423-3",
+        "066c5822-d707-42a9-a308-87c900c46ceb",
+        "5d42c269-976d-4540-9911-a27362d0eb8b",
+        "4ebc63c2-4034-4333-9b62-4ff3009c1636"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1654283606a8da4e44": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "ba48435f-1e40-452e-8ec4-1ae2069c7dc4": {
+          "type": "caption",
+          "settings": {
+            "caption": "Science-backed. Naturally powerful.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "1654283606a653a94f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ingredients from nature synced to your natural beauty and rhythm",
+            "heading_size": "h2"
+          }
+        },
+        "1654283606a653a94f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All Phenology products are science-backed, even our packaging. Oxygen and light break down critical active ingredients in foods and nutritional products so Phenology products are presented in light-blocking and oxygen impermeable dark violet biophotonic glass packaging. This patented glass preserves essential active ingredients, guaranteeing that you’re alway getting the best of science and nature delivered to your door.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1654283606a653a94f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ba48435f-1e40-452e-8ec4-1ae2069c7dc4",
+        "1654283606a653a94f-0",
+        "1654283606a653a94f-1",
+        "1654283606a653a94f-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165487989763755168": {
+      "type": "apps",
+      "blocks": {
+        "77ebaaf5-df17-4eab-8f5c-dd75abd10724": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "77ebaaf5-df17-4eab-8f5c-dd75abd10724"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Complete Your Bundle",
+        "color_scheme": "inverse",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "tmp-product-dosage",
+    "e805d53b-e5bc-48a0-a231-485cbd201f4d",
+    "1654802788c1ff0acc",
+    "1654283884c1da5135",
+    "16542840597f525cec",
+    "3e685b9f-cac9-4233-bd9c-8ebeb5ff0186",
+    "1654283606a8da4e44",
+    "165487989763755168",
+    "product-recommendations"
+  ]
+}

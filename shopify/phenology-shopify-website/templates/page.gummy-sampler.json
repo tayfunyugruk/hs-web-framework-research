@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "16522835229f3011ed": {
+      "type": "image-with-text",
+      "blocks": {
+        "1652283521c23bc4d5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "For better moods, brighter days & more peaceful, restful nights",
+            "heading_size": "h1"
+          }
+        },
+        "1652283521c23bc4d5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Morning+Evening Gummies are formulated from a naturally powerful, patent-pending combination of saffron extract and genistein clinically proven to improve brain and emotional health and reduce hot flashes by 51%.<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "1652283521c23bc4d5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP GUMMIES",
+            "button_link": "shopify:\/\/collections\/gummies"
+          }
+        }
+      },
+      "block_order": [
+        "1652283521c23bc4d5-0",
+        "1652283521c23bc4d5-1",
+        "1652283521c23bc4d5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FINAL_SPRING_VIGNETTE_GROUP_020RETOUCHPRIORITY_web-compressed.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1655154939ee7cc5a4": {
+      "type": "rich-text",
+      "blocks": {
+        "1655154939df41fe29-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "USE CODE ZZZZZZ",
+            "heading_size": "h1"
+          }
+        },
+        "1655154939df41fe29-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free Lucid Lift + Uplift Aromatherapy ($38 value) with any gummy new subscription!<\/p>"
+          }
+        },
+        "1655154939df41fe29-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1655154939df41fe29-0",
+        "1655154939df41fe29-1",
+        "1655154939df41fe29-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1652291064eae47a18": {
+      "type": "multicolumn",
+      "blocks": {
+        "16522910646ca58f41-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-11_at_12.45.14_PM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16522910646ca58f41-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-11_at_12.45.18_PM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16522910646ca58f41-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-11_at_12.45.24_PM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "98738ef4-3043-4652-a392-cdd6f4a281d2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-11_at_12.45.27_PM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16522910646ca58f41-0",
+        "16522910646ca58f41-1",
+        "16522910646ca58f41-2",
+        "98738ef4-3043-4652-a392-cdd6f4a281d2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165228437511f25fd0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Enjoy our Morning+Evening Gummies with Beauty and Sleep Boosters to get the additional benefits of lutein, zeaxanthin, and biotin for skin and bone health and melatonin for deeper, replenishing sleep.*",
+        "collection": "gummies",
+        "products_to_show": 4,
+        "color_scheme": "accent-1",
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "show_secondary_image": true,
+        "show_rating": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1652286004e90fe7ab": {
+      "type": "rich-text",
+      "blocks": {
+        "165228600404dc7f68-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Menopause can be complicated. Finding relief doesn’t have to be.",
+            "heading_size": "h1"
+          }
+        },
+        "165228600404dc7f68-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p> Phenology offers simple solutions to the complexities of menopause through science-backed, naturally powerful health, nutrition, and beauty products and services designed for holistic relief and support when you need it.<\/p>"
+          }
+        },
+        "165228600404dc7f68-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET OUR EXCLUSIVE OFFER",
+            "button_link": "shopify:\/\/collections\/gummies",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "165228600404dc7f68-0",
+        "165228600404dc7f68-1",
+        "165228600404dc7f68-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "16522835229f3011ed",
+    "1655154939ee7cc5a4",
+    "1652291064eae47a18",
+    "165228437511f25fd0",
+    "1652286004e90fe7ab"
+  ]
+}

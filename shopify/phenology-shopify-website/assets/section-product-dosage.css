@@ -1,0 +1,136 @@
+.product-dosage__container {
+    width: 100%;
+    padding: 2rem;
+    background-color: #DEDAC3;
+    min-height: 75vh;
+}
+
+.product-dosage__content_container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.product-dosage__image-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.product-dosage__image {
+    width: 72%;
+    max-width: 500px;
+}
+
+.product-dosage__description-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-dosage__description-container-helper {
+    width: 80%;
+}
+
+.product-dosage__frequency_text_container {
+    display: flex; 
+    align-items: center
+}
+
+.product-dosage__frequency_text {
+    color: #00552B
+}
+
+.product-dosage__headline {
+    font-family: var(--font-secondary-body-family) !important;
+    font-style: var(--font-heading-style);
+    font-weight: var(--font-heading-weight);
+    letter-spacing: calc(var(--font-heading-scale));
+}
+
+.product-dosage__content p {
+    margin-top: 0
+}
+
+.product_dosage__seperator_line {
+    width: calc(100% - 8rem); 
+    margin-left: 4rem; 
+    margin-right: 4rem; 
+    height: 2px; 
+    background-color: white;
+}
+
+.product_dosage__symptom_headline {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 4rem; 
+    padding-bottom: 4rem
+}
+
+.product-dosage__symptom_images_container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap
+}
+
+.product-dosage__symptom_image_container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-right: 2px;
+}
+
+.product_dosage__symptom_image {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 48px; 
+    height: 48px; 
+    border-radius: 24px; 
+    background-color: white;
+    margin: 1rem
+}
+
+.product_dosage__symptom_image_text {
+    width: 100px; 
+    text-align: center; 
+    line-height: normal;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 750px) {
+    .product-dosage__container {
+        padding: 4rem;
+        padding-right: 1rem;
+    }
+
+    .product-dosage__content_container {
+        flex-direction: row;
+        margin-bottom: 8rem;
+    }
+
+    .product-dosage__image {
+        object-fit: contain;
+    }
+
+    .product-dosage__description-container {
+        padding-right: 4rem;
+    }
+
+    .product_dosage__symptom_image {
+        width: 60px; 
+        height: 60px; 
+        border-radius: 30px; 
+    }
+
+    .product_dosage__symptom_image_text {
+        font-size: 14px;
+    }
+
+    .product-dosage__symptom_image_container {
+        margin-right: 4px;
+    }
+}

@@ -1,0 +1,210 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "14d81033-4764-4789-ae5e-ead3b685b46f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14866753388609__14d81033-4764-4789-ae5e-ead3b685b46f-1673372999f6ac0ffe-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "In the Press",
+            "heading_size": "h1"
+          }
+        },
+        "template--14866753388609__14d81033-4764-4789-ae5e-ead3b685b46f-1673372999f6ac0ffe-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14866753388609__14d81033-4764-4789-ae5e-ead3b685b46f-1673372999f6ac0ffe-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14866753388609__14d81033-4764-4789-ae5e-ead3b685b46f-1673372999f6ac0ffe-0",
+        "template--14866753388609__14d81033-4764-4789-ae5e-ead3b685b46f-1673372999f6ac0ffe-1",
+        "template--14866753388609__14d81033-4764-4789-ae5e-ead3b685b46f-1673372999f6ac0ffe-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "8192c183-0ffe-4055-b091-a82c7e6cbf57": {
+      "type": "pressbar-brand",
+      "blocks": {
+        "b7883d17-b464-49ac-ab05-48764bdd4539": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Screen_Shot_2022-11-14_at_4.41.26_PM.png",
+            "width_image": "auto",
+            "height_image": "60"
+          }
+        },
+        "18fef665-1630-4de8-8205-679355e60e9e": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Screen_Shot_2022-11-14_at_4.41.36_PM.png",
+            "width_image": "auto",
+            "height_image": "50"
+          }
+        },
+        "44032aa9-2ae3-4d62-b7ac-04e39163ff0c": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Screen_Shot_2022-11-14_at_4.43.56_PM.png",
+            "width_image": "auto",
+            "height_image": "50"
+          }
+        },
+        "0d5f31c7-751c-49ae-bf68-ae3ebe8aab96": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Screen_Shot_2022-11-14_at_4.41.31_PM.png",
+            "width_image": "auto",
+            "height_image": "50"
+          }
+        },
+        "f604efa4-b40b-4971-95ef-1f8a5be6cc9c": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Screen_Shot_2022-11-14_at_4.41.41_PM.png",
+            "width_image": "auto",
+            "height_image": ""
+          }
+        }
+      },
+      "block_order": [
+        "b7883d17-b464-49ac-ab05-48764bdd4539",
+        "18fef665-1630-4de8-8205-679355e60e9e",
+        "44032aa9-2ae3-4d62-b7ac-04e39163ff0c",
+        "0d5f31c7-751c-49ae-bf68-ae3ebe8aab96",
+        "f604efa4-b40b-4971-95ef-1f8a5be6cc9c"
+      ],
+      "settings": {
+      }
+    },
+    "5a55e058-e10c-40a5-ab7d-682d45d59acd": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--14866753388609__5a55e058-e10c-40a5-ab7d-682d45d59acd-1673475285a0533320-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nature, meet science",
+            "heading_size": "h1"
+          }
+        },
+        "template--14866753388609__5a55e058-e10c-40a5-ab7d-682d45d59acd-1673475285a0533320-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create your own personalized wellness program with tailored insights, expert guidance, and nutrition solutions so you can feel your best.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14866753388609__5a55e058-e10c-40a5-ab7d-682d45d59acd-1673475285a0533320-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "TAKE THE ASSESSMENT",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14866753388609__5a55e058-e10c-40a5-ab7d-682d45d59acd-1673475285a0533320-0",
+        "template--14866753388609__5a55e058-e10c-40a5-ab7d-682d45d59acd-1673475285a0533320-1",
+        "template--14866753388609__5a55e058-e10c-40a5-ab7d-682d45d59acd-1673475285a0533320-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ph_quote_model.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1a257269-647c-4727-8db4-dfbcd522dfb6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Phenology delivers naturaly effective soultions.",
+            "heading_size": "h0"
+          }
+        },
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Phenology is a women-led health initiative aligning experience and expertise with science-backed, holistic menopause solutions to help guide women through every stage of their journey.<\/p>"
+          }
+        },
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Our Approach",
+            "button_link": "https:\/\/www.myphenology.com\/our-approach",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-0",
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-1",
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "14d81033-4764-4789-ae5e-ead3b685b46f",
+    "8192c183-0ffe-4055-b091-a82c7e6cbf57",
+    "5a55e058-e10c-40a5-ab7d-682d45d59acd",
+    "1a257269-647c-4727-8db4-dfbcd522dfb6"
+  ]
+}

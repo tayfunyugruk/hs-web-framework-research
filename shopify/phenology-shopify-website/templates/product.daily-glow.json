@@ -1,0 +1,11 @@
+{
+  "layout": "tailwind_layout",
+  "sections": {
+    "main": {
+      "type": "tailwind-test-section"
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

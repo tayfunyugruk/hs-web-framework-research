@@ -1,0 +1,453 @@
+{
+  "sections": {
+    "16570515507b6c1973": {
+      "type": "rich-text",
+      "blocks": {
+        "1657051550bf7857b4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUBSCRIBE TODAY & GET A FREE GIFT ($38 VALUE)",
+            "heading_size": "h1"
+          }
+        },
+        "1657051550bf7857b4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use code GIFTSET at Checkout<\/p>"
+          }
+        },
+        "1657051550bf7857b4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1657051550bf7857b4-0",
+        "1657051550bf7857b4-1",
+        "1657051550bf7857b4-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "The most advanced natural menopause gummies",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "e7636589-e4cc-4f15-9a4a-883dc79d9468": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "57bd007f-e653-464f-ab5f-bfe8737777ec": {
+          "type": "text",
+          "settings": {
+            "text": "Drug Free| Estrogen Free | No Parabens | No Mineral Oil  | No Phthalates | No Sulfates",
+            "text_style": "uppercase"
+          }
+        },
+        "1601ed63-afb2-41ef-8a46-d03fc9d834b3": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "INGREDIENTS - Beautiful Day",
+            "icon": "none",
+            "content": "<p><em><strong>Beautiful Day<\/strong><\/em><\/p><p><strong>Saffron<\/strong> - A powerful spice from the Crocus sativus flower, clinically shown to <br\/>reduce stress and anxiety to support a positive mood and restful sleep.*<\/p><p><strong>Genistein -<\/strong> Anisoflavone found in red clover, fava beans and alfalfa that gently interacts with your body’s estrogen receptors to reduce the frequency and duration of hot flashes.*<\/p><p><strong>Vitamin B6<\/strong> - An important vitamin for brain function, development, and energy at the cellular level*Vitamin B12A necessary vitamin for red blood cell development, maintenance of the nervous system, brain health, and our metabolism*<\/p><p><strong>Vitamin D3 (Vegan)<\/strong>- An<br\/> algae-derived form of Vitamin D3 (cholecalciferol) made from a 100% <br\/>non-GMO plant source (algae), supports immune health, bone health and healthy calcium metabolism*<\/p><p><strong>Vitamin K2<\/strong> - A complement to our Vegan form of Vitamin D3, Vitamin K (menaquinone-7 or MK7) works together with vitamin D to help the body use calcium more efficiently to support bone and heart health*<\/p><p><strong>Biotin<\/strong> - An essential vitamin that promotes keratin formation for strong hair and nails.*<\/p><p><strong>Lutein and Zeaxanthin<\/strong> - Carotenoids extracted from marigolds with antioxidant properties that have been clinically shown to promote skin hydration and elasticity and to support healthy vision.*<\/p><p><em><strong>Elevated Evening<\/strong><\/em><\/p><p><strong>Saffron<\/strong> - A powerful spice from the Crocus sativus flower, clinically shown to reduce stress and anxiety to support a positive mood and restful sleep.*<\/p><p><strong>Genistein <\/strong>- An iso flavone found in red clover, fava beans and alfalfa that gently interacts with your body’s estrogen receptors to reduce the frequency and duration of hot flashes.*<\/p><p><strong>Cannabidiol<\/strong> - Derived from the hemp plant, CBD interacts with the body’s endocannabinoid system (EC) to promote a sense of calmness and wellbeing <\/p><p><strong>Melatonin<\/strong> - Melatonin is your body’s internal sleep signal and has been clinically shown to help you fall asleep faster and improve sleep quality as well as supporting healthy libido\/sexual desire in perimenopausal women.*<\/p><p><strong>Chamomile Extract<\/strong> - A flower that’s traditionally used to promote relaxation and prized for its calming aroma*<\/p><p>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "INGREDIENTS - Essential Evening",
+            "icon": "none",
+            "content": "<p><strong>Cannabidiol<\/strong><br\/>Derived from the hemp plant, CBD interacts with the body’s endocannabinoid system (EC) to promote a sense of calmness and wellbeing<br\/><br\/><strong>Saffron<\/strong><br\/>A powerful spice from the Crocus sativus flower, clinically shown to reduce stress and anxiety to support a positive mood and restful sleep.*<br\/><br\/><strong>Genistein<\/strong><br\/>An isoflavone found in red clover, fava beans and alfalfa that gently interacts with your body’s estrogen receptors to reduce the frequency and duration of hot flashes.*<br\/><br\/><strong>Chamomile Extract<\/strong><br\/>A flower that’s traditionally used to promote relaxation and prized for its calming aroma*<br\/><br\/>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SYMPTOMS",
+            "icon": "none",
+            "content": "<p>Brain fog<\/p><p>Mood swings<\/p><p>Hot flashes<\/p><p>Night sweats<\/p><p>Fatigue<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "FLAVOR",
+            "icon": "perfume",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "e7636589-e4cc-4f15-9a4a-883dc79d9468",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "57bd007f-e653-464f-ab5f-bfe8737777ec",
+        "1601ed63-afb2-41ef-8a46-d03fc9d834b3",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-3",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "medium",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "1657051770bad4b80a": {
+      "type": "rich-text",
+      "blocks": {
+        "165705177025929658-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "165705177025929658-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "165705177025929658-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET MY SPECIAL OFFER",
+            "button_link": "https:\/\/staging.myphenology.com\/gift-set",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "165705177025929658-0",
+        "165705177025929658-1",
+        "165705177025929658-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1654802788c1ff0acc": {
+      "type": "pressbar-brand",
+      "blocks": {
+        "4667ed8f-91a6-4cd5-af06-ddd2a80b2f5f": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Allure.png",
+            "width_image": "99.71px",
+            "height_image": "40px"
+          }
+        },
+        "9370d3a6-d89b-4aa8-9824-3adcf65b4db9": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Vector.png",
+            "width_image": "278.37px",
+            "height_image": "20px"
+          }
+        },
+        "a737c579-ce7d-4df8-b726-92600e68dcca": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Vector_1.png",
+            "width_image": "239.07px",
+            "height_image": "20px"
+          }
+        },
+        "2f49f21e-75bd-4762-a427-578c513d5b3e": {
+          "type": "image_picker_icons",
+          "settings": {
+            "press_icon": "shopify:\/\/shop_images\/Vector_2.png",
+            "width_image": "168px",
+            "height_image": "20px"
+          }
+        }
+      },
+      "block_order": [
+        "4667ed8f-91a6-4cd5-af06-ddd2a80b2f5f",
+        "9370d3a6-d89b-4aa8-9824-3adcf65b4db9",
+        "a737c579-ce7d-4df8-b726-92600e68dcca",
+        "2f49f21e-75bd-4762-a427-578c513d5b3e"
+      ],
+      "settings": {
+      }
+    },
+    "16542835261e7d27a0": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16542840597f525cec": {
+      "type": "multicolumn",
+      "blocks": {
+        "165428405949de16bc-0": {
+          "type": "column",
+          "settings": {
+            "title": "Ingredients from nature synced to your natural beauty and rhythm",
+            "text": "<p>All Phenology products are science-backed, even our packaging. Oxygen and light break down critical active ingredients in foods and nutritional products so Phenology products are presented in light-blocking and oxygen impermeable dark violet biophotonic glass packaging. This patented glass preserves essential active ingredients, guaranteeing that you’re alway getting the best of science and nature delivered to your door.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165428405949de16bc-0"
+      ],
+      "settings": {
+        "title": "Science-backed. Naturally powerful.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1654283606a8da4e44": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "ba48435f-1e40-452e-8ec4-1ae2069c7dc4": {
+          "type": "caption",
+          "settings": {
+            "caption": "Science-backed. Naturally powerful.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "1654283606a653a94f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ingredients from nature synced to your natural beauty and rhythm",
+            "heading_size": "h2"
+          }
+        },
+        "1654283606a653a94f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All Phenology products are science-backed, even our packaging. Oxygen and light break down critical active ingredients in foods and nutritional products so Phenology products are presented in light-blocking and oxygen impermeable dark violet biophotonic glass packaging. This patented glass preserves essential active ingredients, guaranteeing that you’re alway getting the best of science and nature delivered to your door.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1654283606a653a94f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ba48435f-1e40-452e-8ec4-1ae2069c7dc4",
+        "1654283606a653a94f-0",
+        "1654283606a653a94f-1",
+        "1654283606a653a94f-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1654283884c1da5135": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654283883e63398b2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "How It Works",
+            "heading_size": "h2"
+          }
+        },
+        "1654283883e63398b2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>Each of our gummies is created intentionally to correspond to every part of your day. Designed to be taken in the morning and at night, our daily supplement regimen provides key nutrients you need and bioactive ingredients for the symptom relief you want.<\/p><p><strong>Suggested Use:<\/strong><br\/>Morning Gummy with Beauty Booster: Adults, take two (2) gummies daily in the morning, preferably with a meal as part of your daily holistic regimen. Evening Gummy with Sleep Booster: Adults take two (2) gummies every evening before bedtime.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1654283883e63398b2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654283883e63398b2-0",
+        "1654283883e63398b2-1",
+        "1654283883e63398b2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/boosted-gummy-duo.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "165487989763755168": {
+      "type": "apps",
+      "blocks": {
+        "77ebaaf5-df17-4eab-8f5c-dd75abd10724": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "77ebaaf5-df17-4eab-8f5c-dd75abd10724"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "16570515507b6c1973",
+    "main",
+    "1657051770bad4b80a",
+    "1654802788c1ff0acc",
+    "16542835261e7d27a0",
+    "16542840597f525cec",
+    "1654283606a8da4e44",
+    "1654283884c1da5135",
+    "product-recommendations",
+    "165487989763755168"
+  ]
+}

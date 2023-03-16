@@ -1,0 +1,176 @@
+{{ 'section-product-dosage.css' | asset_url | stylesheet_tag }}
+
+{% comment %}
+- Below mapping retrieved from NextJS
+
+- symptom_thinning_or_brittle_hair: "Thinning hair",
+- symptom_insomnia: "Sleep",
+- symptom_low_libido: "Low libido",
+- symptom_skin_changes: "Skin changes",
+- symptom_hot_flashes: "Hot flashes",
+- symptom_night_sweats: "Night sweats",
+- symptom_mood_swings: "Mood swings",
+- symptom_brain_fog: "Brain fog",
+- symptom_fatigue: "Fatigue",
+- symptom_irritability: "Irritability",
+- symptom_anxiety: "Occasional anxiety",
+- symptom_depressive_mood: "Gloomy mood",
+- symptom_skin_problems: "Skin Problems",
+- symptom_immunity: "Immunity",
+- symptom_eye_health: "Eye Health",
+- symptom_brain_health: "Brain Health",
+- symptom_joint: "Joint Pain",
+- symptom_digestion: "Digestion",
+symptom_heart: "Heart health",
+{% endcomment %}
+
+{%liquid 
+  assign productDosageMetaobject = product.metafields.custom.product_dosage_metaobject_reference.value
+  assign productDosageImage = productDosageMetaobject.image
+%}
+
+{% if productDosageMetaobject != blank %}
+<div class="product-dosage__container">
+  <div class="product-dosage__content_container">
+    <div class="product-dosage__image-container">
+      <img src="{{ productDosageImage | image_url: width: 720 }}" alt="gummy image" loading="lazy" class="product-dosage__image" width="" height="" />
+    </div>
+    <div class="product-dosage__description-container">
+      <div class="product-dosage__description-container-helper">
+        <div class="product-dosage__frequency_text_container">
+          <span class="hs-flex">{% render "icon-circle-check", width: "24px", color: "#00552B" %}</span>
+          <span class="product-dosage__frequency_text hs-ml-1">{{ productDosageMetaobject.frequency_text }}</span>
+        </div>
+        <h1 class="product-dosage__headline hs-mt-2 hs-mb-2">{{ productDosageMetaobject.title }}</h1>
+        <div class="product-dosage__content">
+          {{ productDosageMetaobject.content }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="product_dosage__seperator_line">&nbsp;</div>
+
+    <div class="product_dosage__symptom_headline">
+      <span>Symptoms that it helps with</span>
+    </div>
+
+    <div class="product-dosage__symptom_images_container">
+    {% for tag in product.tags %}
+      {%liquid 
+        assign symptomTagPrefix = 'symptom_'
+        assign splittedTagArray = tag | split: symptomTagPrefix
+        assign tagName = splittedTagArray[1]
+      %}
+      {% if splittedTagArray.size > 1 %}
+        <span class="product-dosage__symptom_image_container">
+          <span class="product_dosage__symptom_image">
+            {%liquid 
+              if tagName == "fatigue"
+                render "icon-symptom-fatigue"
+              endif
+              if tagName == "anxiety"
+                render "icon-symptom-anxiety"
+              endif
+              if tagName == "brain_fog"
+                render "icon-symptom-brain_fog"
+              endif
+              if tagName == "hot_flashes"
+                render "icon-symptom-hot_flashes"
+              endif
+              if tagName == "irritability"
+                render "icon-symptom-irritability"
+              endif
+              if tagName == "mood_swings"
+                render "icon-symptom-mood_swings"
+              endif
+              if tagName == "night_sweats"
+                render "icon-symptom-night_sweats"
+              endif
+              if tagName == "skin_changes"
+                render "icon-symptom-skin_changes"
+              endif
+              if tagName == "insomnia"
+                render "icon-symptom-sleep"
+              endif
+              if tagName == "depressive_mood"
+                render "icon-symptom-gloomy_mood"
+              endif
+              if tagName == "digestion"
+                render "icon-symptom-digestion"
+              endif
+              if tagName == "bladder"
+                render "icon-symptom-bladder"
+              endif
+              if tagName == "thinning_hair"
+                render "icon-symptom-hair"
+              endif
+              if tagName == "low_libido"
+                render "icon-symptom-low_libido"
+              endif
+              if tagName == "skin_problems"
+                render "icon-symptom-skin_problems"
+              endif
+              if tagName == "immunity"
+                render "icon-symptom-immunity"
+              endif
+              if tagName == "eye_health"
+                render "icon-symptom-eye_health"
+              endif
+              if tagName == "brain_health"
+                render "icon-symptom-brain_health"
+              endif
+              if tagName == "joint_pain"
+                render "icon-symptom-joint"
+              endif
+              if tagName == "heart_health"
+                render "icon-symptom-heart"
+              endif              
+            %}
+          </span>
+          <span class="product_dosage__symptom_image_text">
+            {% if tagName == "fatigue" %}Fatigue{% endif %}
+            {% if tagName == "anxiety" %}Occasional anxiety{% endif %}
+            {% if tagName == "brain_fog" %}Brain Fog{% endif %}
+            {% if tagName == "hot_flashes" %}Hot flashes{% endif %}
+            {% if tagName == "irritability" %}Irritability{% endif %}
+            {% if tagName == "mood_swings" %}Mood swings{% endif %}
+            {% if tagName == "night_sweats" %}Night sweats{% endif %}
+            {% if tagName == "skin_changes" %}Skin changes{% endif %}
+            {% if tagName == "insomnia" %}Sleep{% endif %}
+            {% if tagName == "depressive_mood" %}Gloomy mood{% endif %}
+            {% if tagName == "digestion" %}Digestion{% endif %}
+            {% if tagName == "bladder" %}Bladder{% endif %}
+            {% if tagName == "thinning_hair" %}Thinning hair{% endif %}
+            {% if tagName == "low_libido" %}Low libido{% endif %}
+            {% if tagName == "skin_problems" %}Skin Problems{% endif %}
+            {% if tagName == "immunity" %}Immunity{% endif %}
+            {% if tagName == "eye_health" %}Eye health{% endif %}
+            {% if tagName == "brain_health" %}Brain health{% endif %}
+            {% if tagName == "joint_pain" %}Joint pain{% endif %}
+            {% if tagName == "heart_health" %}Heart health{% endif %}
+          </span>
+        </span>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "t:sections.product-dosage.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+
+  ],
+  "presets": [
+    {
+      "name": "t:sections.product-dosage.presets.name",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

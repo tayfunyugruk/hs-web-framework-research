@@ -1,0 +1,14 @@
+{
+  "layout": "tailwind_layout",
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "image_ratio": "square"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

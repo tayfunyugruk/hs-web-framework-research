@@ -1,0 +1,79 @@
+<style>
+    .press-bar-icons {
+          align-items: center;
+          border-bottom: 1px solid #876f5a;
+          border-top: 1px solid #876f5a;
+          display: flex;
+          height: 200px;
+          justify-content: space-between;
+          margin: 50px 0;
+      }
+  
+      @media (max-width: 1000px) {
+          .press-bar-icons {
+              justify-content: center;
+              flex-wrap: wrap;
+              height: auto;
+          }
+  
+          .press-bar-icons img {
+              margin: 30px;
+          }
+      }
+  </style>
+<section>
+    <div class="page-width">
+          <div class="press-bar-icons">
+        {% for block in section.blocks %}
+           {% if block.type == "image_picker_icons" %}
+              <img
+                src="{{ block.settings.press_icon | img_url: 'medium' }}"
+                width="{{ block.settings.width_image }}"
+                height="{{ block.settings.height_image }}"
+                alt="{{ block.settings.press_icon.alt }}"
+              />
+           {% endif %} 
+        {% endfor %}
+          </div>
+      </div>
+  </section>
+
+  {% schema %}
+  {
+      "name": "Brands",
+      "class": "pressbar",
+      "settings": [],
+      "blocks": [
+        {
+            "name": "press-icon-brands",
+            "type": "image_picker_icons",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "press_icon",
+                    "label": "Brand"
+                },
+                {
+                    "type": "text",
+                    "id": "width_image",
+                    "label": "width",
+                    "info": "image width in pixels",
+                    "default": "auto"
+                },
+                {
+                    "type": "text",
+                    "id": "height_image",
+                    "label": "height",
+                    "info": "image height in pixels",
+                    "default": "auto"
+                }
+            ]
+        }
+      ],
+      "presets": [
+        {
+            "name": "Brands"
+        }
+      ]
+  }
+  {% endschema %}

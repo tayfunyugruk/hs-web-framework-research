@@ -1,0 +1,144 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1a257269-647c-4727-8db4-dfbcd522dfb6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CBD for Menopause? Yes, We're Serious.",
+            "heading_size": "h0"
+          }
+        },
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CBD, or cannabidiol, is one of the many cannabinoids found in the hemp plant. Cannabinoids are chemical compounds that act upon receptors in the human body to promote natural healing and balance. Although CBD has been touted as a cure-all for all kinds of problems, the science shows that, in lower doses, it works best to support calming and relaxation.*<\/p><p>But first, let’s get one thing straight. CBD doesn’t make you feel “high.” You can use CBD every day without worrying about dependency or experiencing any of the psychoactive effects typically associated with using cannabis due to its THC content. CBD is not THC. <\/p>"
+          }
+        },
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-0",
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-1",
+        "template--14840500387905__1a257269-647c-4727-8db4-dfbcd522dfb6-1668467395abef4e0d-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "77a67bb5-611c-4acb-aeec-b466b16e4a55": {
+      "type": "featured-product",
+      "blocks": {
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-0": {
+          "type": "text",
+          "settings": {
+            "text": "Daytime & Night Time Gummies for Round the Clock Relief",
+            "text_style": "uppercase"
+          }
+        },
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-2": {
+          "type": "text",
+          "settings": {
+            "text": "Daily Duet with Beauty & Sleep delivers clinically-tested combinations of biotin, lutein and zeaxanthin in Beautiful Day for stronger hair, skin, and nails and CBD, chamomile extract, and melatonin in Elevated Evening to help you destress, relax, and get better sleep every night.*",
+            "text_style": "subtitle"
+          }
+        },
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-7": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-0",
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-1",
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-2",
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-3",
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-4",
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-5",
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-6",
+        "template--14840500387905__77a67bb5-611c-4acb-aeec-b466b16e4a55-1668467737cff946be-7"
+      ],
+      "settings": {
+        "product": "morning-evening-gummy-duo-supplements-with-beauty-and-sleep-boosters",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1a257269-647c-4727-8db4-dfbcd522dfb6",
+    "77a67bb5-611c-4acb-aeec-b466b16e4a55"
+  ]
+}

@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Domaine Text Regular';
+  src: url('DomaineText-Regular.otf') format('OpenType'),
+    url('DomaineText-Regular.woff2') format('woff2'),
+    url('DomaineText-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Domaine Medium Text';
+  src: url('DomaineText-Medium.otf') format('OpenType'),
+    url('DomaineText-Medium.woff2') format('woff2'),
+    url('DomaineText-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro Regular';
+  src: url('BasisGrotesquePro-Regular.otf') format('OpenType'),
+    url('BasisGrotesquePro.woff2') format('woff2'),
+    url('BasisGrotesquePro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro Bold';
+  src: url('BasisGrotesquePro-Bold.otf') format('OpenType'),
+    url('BasisGrotesquePro-Bold.woff2') format('woff2'),
+    url('BasisGrotesquePro-Bold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url('basis-grotesque-medium-pro.otf') format('OpenType'),
+    url('BasisGrotesquePro-Medium.woff2') format('woff2'),
+    url('BasisGrotesquePro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Domaine Text Regular' !important;
+}
+
+p,
+span,
+a {
+  font-family: 'Basis Grotesque Pro Regular';
+}
+
+banner__heading {
+  font-size: 40px !important;
+  font-family: 'Domaine Text Regular' !important;
+}
+
+
+
+button {
+  text-transform: uppercase;
+  font-family: 'Basis Grotesque Pro Bold' !important;
+  font-weight: 900;
+
+  &.shopify-payment-button__button {
+    background-color: transparent !important;
+    color: #4f0d31;
+    border: 1px solid #4f0d31;
+  }
+
+  span {
+    font-family: 'Basis Grotesque Pro Bold' !important;
+    font-weight: 900;
+  }
+}
+
+footer {
+  h2 {
+    font-size: 40px !important;
+    font-family: 'Domaine Text Regular' !important;
+  }
+
+  ul {
+    li {
+      a {
+        font-family: 'Basis Grotesque Pro Regular' !important;
+        font-size: 16px !important;
+        line-height: 10px !important;
+        color: #fff !important;
+      }
+    }
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  p a {
+    text-decoration: none !important;
+    color: #fff !important;
+    font-size: 16px !important;
+  }
+
+  .field__input {
+    border: 0 !important;
+  }
+}
+@font-face {
+  font-family: “Basis-grotesque”;
+  src: url({{ “basis-grotesque-black-pro” | asset_url }})
+    format(“OnlyTheFamily”);
+}
+
+@media screen and (min-width: 750px){
+.banner__box {
+  padding-left: 300px !important;
+}
+}

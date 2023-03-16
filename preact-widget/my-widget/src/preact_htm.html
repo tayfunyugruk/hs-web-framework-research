@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title><% preact.title %></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<script type="module" src="index.module.js"></script>
+	</head>
+	<body style="background-color: #f7f3f0;">
+		<div data-widget-host="habitat" class="preview">
+			<script type="text/props">
+			  { "color": "red"}
+			</script>
+		</div>
+        <div id="htmReactContainer">
+
+        </div>
+        <script type="module">
+            import { Preact } from "./index.module.js";
+            import htm from 'https://unpkg.com/htm@3.0.4/dist/htm.module.js'
+            console.log()
+            console.log("Preact")
+            console.log(Preact);
+            console.log()
+
+            // 2. make htm import work with Preact import
+            const html = htm.bind(Preact.createElement)
+            // 3. define Header component
+            class Header extends Preact.Component {
+                render() {
+                    const { name } = this.props
+                    return html`<h1>${name} List</h1>`
+                }
+            }
+            // 4. define Footer component
+            class Footer extends Preact.Component {
+                render() {
+                    const { children } = this.props
+                    return html`<footer>${children}</footer>`
+                }
+            }
+            // 5. define App component
+            class App extends Preact.Component {
+                constructor() {
+                super()
+                    this.state = {
+                        todos: []
+                    }
+                }
+                addTodo() {
+                    const { todos } = this.state
+                    this.setState({
+                        todos: todos.concat(`Item ${todos.length}`)
+                    })
+                }
+                render() {
+                    const { page } = this.props
+                    const { todos } = this.state
+                    return html`
+                        <div class="app">
+                        <${Header} name="ToDo's (${page})"></Header>
+                        <ul>
+                            ${todos.map(todo => html`
+                                <li key="${todo}">${todo}</li>
+                            `)}
+                        </ul>
+                        <button onClick=${() => this.addTodo()}>Add Todo</button>
+                        <${Footer}>footer content here</Footer>
+                        </div>
+                    `
+                }
+            }
+            // 6. append rendered App component to node document.body
+            console.log()
+            console.log("HTML")
+            console.log(html`<${App} page="All"></App>`);
+            console.log()
+            Preact.render(html`<${App} page="All"></App>`, document.querySelector("#htmReactContainer"))
+        </script>
+	</body>
+</html>

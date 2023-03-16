@@ -1,0 +1,503 @@
+<div class="cart-discount__container">
+  {%- if cart != empty -%}
+    <div class="cart-discount__container__inputs">
+      <input
+        type="text"
+        id="discount_code"
+        name="discount_code"
+        placeholder="{{ section.settings.placeholder }}"
+        autocomplete="off"
+      >
+      <button class="cart-discount__button">
+        <span>
+          {{ section.settings.button_label }}
+        </span>
+        <div class="loading-overlay__spinner hidden">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            role="presentation"
+            class="spinner"
+            viewBox="0 0 66 66"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle class="path" fill="none" stroke-width="6" stroke="white" cx="33" cy="33" r="30"></circle>
+          </svg>
+        </div>
+      </button>
+    </div>
+    <span class="cart-discount__error">Enter a valid discount code or gift card</span>
+    <div class="cart-discount__container__codes"></div>
+    <div class="cart-discount__container__totals">
+      <div>
+        <span>Discount:</span>
+        <span>-</span>
+      </div>
+      <div>
+        <span>Total:</span>
+        <span>$00.00</span>
+      </div>
+    </div>
+    <div class="cart-discount__container__subTotals">
+      <span>Subtotal</span>
+      <span>$00.00</span>
+    </div>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Cart Discount",
+  "class": "page-width",
+  "settings": [
+    {
+      "type": "text",
+      "id": "placeholder",
+      "label": "Placeholder",
+      "default": "Gift Card or Discount code"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Apply"
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  class DiscountsApp {
+    constructor(root) {
+      this.state = {
+        error: false,
+        totalDiscount: '',
+        total: '',
+        discountCode: null,
+        loading: false,
+      };
+      this.authorizationToken = null;
+      this.tokenCheckout = null;
+      this.root = root;
+      this.addEventListeners();
+    }
+
+    setState = (checkout) => {
+      if (!checkout) return;
+      const { total_discount_amount, total_line_items_price, discount_code } = checkout;
+      const newState = { ...this.state };
+
+      newState.totalDiscount = total_discount_amount;
+      newState.total = total_line_items_price;
+      newState.discountCode = discount_code;
+
+      console.log(checkout);
+
+      this.state = newState;
+    };
+
+    updateState = async () => {
+      const data = await this.queryCheckout();
+      const { checkout } = await data.json();
+
+      this.setState(checkout);
+      this.render();
+    };
+
+    queryCheckout = async (method = 'GET', body) => {
+      this.state.loading = true;
+      try {
+        let data = await fetch(`/wallets/checkouts/${this.tokenCheckout}`, {
+          headers: {
+            accept: '*/*',
+            'content-type': 'application/json',
+            'x-shopify-checkout-authorization-token': this.authorizationToken,
+          },
+          body,
+          method,
+          mode: 'cors',
+          credentials: 'omit',
+        });
+
+        if (data.status === 409) {
+          data = await this.queryCheckout(method, body);
+        }
+
+        this.state.loading = false;
+        return data;
+      } catch (error) {
+        console.log(error);
+        this.state.loading = false;
+      }
+    };
+
+    getTokens = async () => {
+      this.state.loading = true;
+      try {
+        let dataCheckout = await fetch('/checkout');
+        if (dataCheckout.status === 409) dataCheckout = await fetch('/checkout');
+        if (!dataCheckout.ok) throw Error('Query failed!');
+
+        const text = await dataCheckout.text();
+        const div = document.createElement('div');
+        div.innerHTML = text;
+        const metaSelector = '[name=shopify-checkout-authorization-token]';
+
+        this.authorizationToken = div.querySelector(metaSelector)?.content ?? '';
+        this.tokenCheckout = dataCheckout.url.split('/').pop();
+        if (this.tokenCheckout === 'cart') {
+          this.render();
+        }
+
+        console.log(this.tokenCheckout);
+
+        this.updateState();
+      } catch (error) {
+        console.log(error);
+        this.state.loading = false;
+      }
+    };
+
+    handleClick = (event) => {
+      if (event.target.classList.contains('cart-discount__button')) {
+        // Loading start
+        this.root.querySelector('.cart-discount__button span').style.display = 'none';
+        this.root.querySelector('.cart-discount__button .loading-overlay__spinner').classList.remove('hidden');
+
+        this.applyDiscount(event.target.previousElementSibling.value);
+      }
+
+      if (event.target.classList.contains('cart-discount__code--delete')) {
+        this.clearDiscount();
+      }
+    };
+
+    applyDiscount = async (code) => {
+      try {
+        if (code === '') throw new Error('Empty string!');
+
+        const response = await this.queryCheckout(
+          'PUT',
+          JSON.stringify({
+            checkout: {
+              reduction_code: code,
+            },
+          })
+        );
+        if (response.ok) {
+          const { checkout } = await response.json();
+          this.setState(checkout);
+          this.render();
+          // Loading end
+          this.root.querySelector('.cart-discount__button span').style.display = 'block';
+          this.root.querySelector('.cart-discount__button .loading-overlay__spinner').classList.add('hidden');
+          return;
+        }
+
+        throw new Error('Code no found!');
+      } catch (error) {
+        // Loading end
+        this.root.querySelector('.cart-discount__button span').style.display = 'block';
+        this.root.querySelector('.cart-discount__button .loading-overlay__spinner').classList.add('hidden');
+        // Error Text
+        this.root.querySelector('.cart-discount__error').classList.add('cart-discount__error-animation');
+        setTimeout(() => {
+          this.root.querySelector('.cart-discount__error').classList.remove('cart-discount__error-animation');
+        }, 2000);
+        console.log(error);
+      }
+    };
+
+    clearDiscount = async () => {
+      try {
+        const response = await this.queryCheckout(
+          'PUT',
+          JSON.stringify({ checkout: { clear_discount: 1, discount_code: this.state.discountCode } })
+        );
+        if (response.ok) {
+          const { checkout } = await response.json();
+          this.setState(checkout);
+          this.render();
+          return;
+        }
+
+        throw new Error('Reques failed!');
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    addEventListeners() {
+      this.root.addEventListener('click', this.handleClick);
+      window.addEventListener('DiscountsApp-update', this.getTokens);
+    }
+
+    render() {
+      const discountTotal = this.state.total - this.state.totalDiscount;
+
+      if (this.tokenCheckout === 'cart') {
+        this.root.classList.add('hidden');
+      } else {
+        this.root.classList.remove('hidden');
+      }
+
+      this.root.innerHTML = `
+        <div class="cart-discount__container__inputs">
+          <input
+            type="text"
+            id="discount_code"
+            name="discount_code"
+            placeholder="{{ section.settings.placeholder }}"
+            autocomplete="off"
+          >
+          <button class="cart-discount__button">
+            <span>
+              {{ section.settings.button_label }}
+            </span>
+            <div class="loading-overlay__spinner hidden">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                role="presentation"
+                class="spinner"
+                viewBox="0 0 66 66"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle class="path" fill="none" stroke-width="6" stroke="white" cx="33" cy="33" r="30"></circle>
+              </svg>
+            </div>
+          </button>
+        </div>
+        <span class="cart-discount__error">Enter a valid discount code or gift card</span>
+        <div class="cart-discount__container__codes">
+          ${
+            this.state.discountCode
+              ? `<span class="cart-discount__code">
+                <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path d="M275.888,0L0,275.888L236.112,512L512,236.112V0H275.888z M417.555,141.667c-13.04,13.04-34.183,13.04-47.223,0
+                        c-13.04-13.04-13.04-34.183,0-47.223c13.04-13.04,34.183-13.04,47.223,0C430.595,107.486,430.595,128.627,417.555,141.667z"/>
+                    </g>
+                  </g>
+                </svg>
+                <span class="cart-discount__code--title">${this.state.discountCode}</span>
+                <span class="cart-discount__code--delete">X</span>
+              </span>`
+              : ''
+          }
+        </div>
+        <div class="cart-discount__container__totals">
+          <div>
+            <span>Discount:</span>
+            <span>${this.state.totalDiscount !== '0.00' ? `-$${this.state.totalDiscount}` : '-'}</span>
+          </div>
+          <div>
+            <span>Total:</span>
+            <span>$${this.state.totalDiscount !== '0.00' ? discountTotal.toFixed(2) : this.state.total}</span>
+          </div>
+        </div>
+        <div class="cart-discount__container__subTotals">
+          <span>Subtotal</span>
+          <span>
+          ${this.state.totalDiscount !== '0.00' ? `<span>$${this.state.total}</span>` : ''}
+            $${this.state.totalDiscount !== '0.00' ? discountTotal.toFixed(2) : this.state.total}
+          </span> 
+        </div>
+      `;
+    }
+
+    async init() {
+      await this.getTokens();
+      this.render();
+    }
+  }
+
+  const root = document.querySelector('.cart-discount__container');
+  const DiscountComponent = new DiscountsApp(root);
+  DiscountComponent.init();
+</script>
+
+<style>
+  .totals {
+    display: none !important;
+  }
+
+  {% comment %}  {% endcomment %}
+
+  .cart-discount__container {
+    max-width: 367.5px;
+    margin-left: auto;
+  }
+
+  .cart-discount__container__inputs {
+    height: 45px;
+    display: flex;
+    gap: 12px;
+  }
+
+  .cart-discount__container__inputs input {
+    width: 303px;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding-left: 22px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    transition: outline 1s;
+  }
+
+  .cart-discount__container__inputs input::placeholder {
+    color: #969696;
+    font-family: var(--font-body-family) !important;
+    font-weight: 500;
+  }
+
+  .cart-discount__container__inputs input:focus-visible {
+    outline: 1px solid #000000;
+    border: 1px solid #000000;
+    outline-offset: 0px;
+    box-shadow: unset;
+  }
+
+  .cart-discount__code {
+    background-color: #e2e0e2;
+    padding: 3px 9px 3px 6px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    gap: 4px;
+  }
+
+  .cart-discount__code svg {
+    max-width: 18px;
+    max-height: 16px;
+  }
+
+  .cart-discount__container__codes--title {
+    line-height: 1px;
+    padding: 0 4px;
+  }
+
+  .cart-discount__code--delete {
+    cursor: pointer;
+    line-height: 1px;
+    color: #838383;
+  }
+
+  .cart-discount__container__totals > * {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cart-discount__container__totals div :first-child  {
+    font-family: Domaine Text Regular;
+  }
+
+  .cart-discount__container__subTotals {
+    text-align: right;
+    margin-top: 27px;
+    margin-bottom: -55px;
+  }
+
+  .cart-discount__container__subTotals > :first-child {
+    font-family: Domaine Text Regular;
+    margin-right: 15px;
+  }
+
+  .cart-discount__container__subTotals span span {
+    text-decoration: line-through;
+    color: #a1a1a1;
+  }
+
+  .cart-discount__button {
+    background-color: #5e5e5e;
+    border-radius: 8px;
+    border: none;
+    width: 94px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    text-transform: unset;
+    display: grid;
+    place-content: center;
+  }
+
+  .cart-discount__button * {
+    pointer-events: none;
+  }
+
+  .cart-discount__button span {
+    font-family: var(--font-body-family) !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    text-transform: unset;
+  }
+
+  .cart-discount__button .loading-overlay__spinner {
+    display: flex;
+  }
+
+  .cart-discount__button .path {
+    stroke: white;
+  }
+
+  .cart-discount__button:hover {
+    background-color: #000000;
+  }
+
+  .cart-discount__button-disabled {
+    background-color: #d0d0d0;
+    cursor: auto;
+  }
+
+  .cart-discount__button-disabled:hover {
+    background-color: #d0d0d0;
+  }
+
+  .cart-discount__error {
+    font-family: var(--font-body-family) !important;
+    color: red;
+    font-size: 13px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    display: block;
+  }
+
+  .cart-discount__error-animation {
+    animation: error_shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+
+  @keyframes error_shake {
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+</style>

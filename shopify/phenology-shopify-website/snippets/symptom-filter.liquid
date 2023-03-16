@@ -1,0 +1,29 @@
+{% if collection.metafields.custom.filter_type != "symptom" %}
+  {%- assign buttonText = 'symptom_filter.symptom' | t -%}
+{% else %}
+  {%- assign buttonText = collection.title -%}
+{% endif %}
+
+<div class="symptom-filter__main-container">
+  <button href="#symptom_menu" class="symptom-filter__main-button button-pressed">
+    {{ 'symptom_filter.button' | t }} {{ buttonText }}
+    <div class="symptom-filter__chevron-icon flipped">{% render 'icon-caret' %}</div>
+  </button>
+  <button href="#symptom_menu" class="symptom-filter__main-button button-not-pressed">
+    {{ 'symptom_filter.button' | t }} {{ buttonText }}
+    <div class="symptom-filter__chevron-icon">{% render 'icon-caret' %}</div>
+  </button>
+  <div class="symptom-filter__menu-container" id="symptom_menu">
+    <h3 class="symptom-filter__menu-title">Symptoms:</h3>
+    {% for collection in collections %}
+      {% if collection.metafields.custom.filter_type == "symptom" %}
+        <a href="/collections/{{ collection.handle }}" class="symptom-filter__menu-item">
+          {{ collection.title }}
+        </a>
+      {% endif %}
+    {% endfor %}
+    <a href="/collections/all-products" class="symptom-filter__menu-reset-item">
+      {{ 'symptom_filter.remove' | t }}
+    </a>
+  </div>
+</div>

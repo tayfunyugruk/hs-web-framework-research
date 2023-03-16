@@ -1,0 +1,281 @@
+{
+  "sections": {
+    "16522835298109ab5c": {
+      "type": "image-banner",
+      "blocks": {
+        "165228352931e49b68-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lets Build A Better User Experience",
+            "heading_size": "medium"
+          }
+        },
+        "165228352931e49b68-1": {
+          "type": "text",
+          "settings": {
+            "text": "Beautiful and Flexible Components to Empower Growth.  Speed up development and reduce cost to launch a new brand. Enable marketing to create their desired customer experience without editing code.",
+            "text_style": "subtitle"
+          }
+        },
+        "165228352931e49b68-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Build Me a Landing Page",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165228352931e49b68-0",
+        "165228352931e49b68-1",
+        "165228352931e49b68-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MyPhenology-Background_1200_x_600_px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "top-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16522835229f3011ed": {
+      "type": "image-with-text",
+      "blocks": {
+        "1652283521c23bc4d5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Powerful Marketing Tools to Interate Quickly",
+            "heading_size": "h0"
+          }
+        },
+        "1652283521c23bc4d5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Marketing and Growth teams should be able to quickly edit and change landing pages with components that are flexible and on-brand.  Shopify has the tools to allow us to do this.<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "1652283521c23bc4d5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN ABOUT PHENOLOGY",
+            "button_link": "https:\/\/www.myphenology.com\/topics\/menopause-whats-happening\/how-long-will-menopause-last"
+          }
+        }
+      },
+      "block_order": [
+        "1652283521c23bc4d5-0",
+        "1652283521c23bc4d5-1",
+        "1652283521c23bc4d5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FINAL_SPRING_VIGNETTE_GROUP_020RETOUCHPRIORITY_web-compressed.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1652291064eae47a18": {
+      "type": "multicolumn",
+      "blocks": {
+        "16522910646ca58f41-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-11_at_12.45.14_PM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16522910646ca58f41-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-11_at_12.45.18_PM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16522910646ca58f41-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-11_at_12.45.24_PM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "98738ef4-3043-4652-a392-cdd6f4a281d2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-11_at_12.45.27_PM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16522910646ca58f41-0",
+        "16522910646ca58f41-1",
+        "16522910646ca58f41-2",
+        "98738ef4-3043-4652-a392-cdd6f4a281d2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165228437511f25fd0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "For the discerning woman.",
+        "collection": "all-products",
+        "products_to_show": 4,
+        "color_scheme": "accent-1",
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "show_secondary_image": true,
+        "show_rating": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1652286004e90fe7ab": {
+      "type": "rich-text",
+      "blocks": {
+        "165228600404dc7f68-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Flexibility that is On-Brand",
+            "heading_size": "h1"
+          }
+        },
+        "165228600404dc7f68-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This landing page was built in about 30 minutes with functionality that already exsists in Shopify.  With development support and creative oversite we can leverage these tools to empower our growth team to acquire customers more effectively.  Have questions about what we need to do to make this possible?  Ask Steven Anderson he's got ideas and anwsers.<\/p>"
+          }
+        },
+        "165228600404dc7f68-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Send Steven an Email",
+            "button_link": "mailto:steven@hologramsciences.com",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "165228600404dc7f68-0",
+        "165228600404dc7f68-1",
+        "165228600404dc7f68-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16522860094e68b2ef": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1652286009b049f413-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1652286009b049f413-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1652286009b049f413-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1652286009b049f413-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652286009b049f413-0",
+        "1652286009b049f413-1",
+        "1652286009b049f413-2",
+        "1652286009b049f413-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible Content",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "16522835298109ab5c",
+    "16522835229f3011ed",
+    "1652291064eae47a18",
+    "165228437511f25fd0",
+    "1652286004e90fe7ab",
+    "16522860094e68b2ef"
+  ]
+}

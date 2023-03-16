@@ -1,0 +1,433 @@
+{
+  "sections": {
+    "rewards-page": {
+      "type": "rewards",
+      "settings": {
+      }
+    },
+    "dd70d570-b433-4388-980b-fce91b933e80": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14861961166913__dd70d570-b433-4388-980b-fce91b933e80-1672332481e56a476b-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14861961166913__dd70d570-b433-4388-980b-fce91b933e80-1672332481e56a476b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ph_lby_wordmark_3x_09cdff16-efce-4031-853e-ee5d05f2557f.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14861961166913__dd70d570-b433-4388-980b-fce91b933e80-1672332481e56a476b-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14861961166913__dd70d570-b433-4388-980b-fce91b933e80-1672332481e56a476b-0",
+        "template--14861961166913__dd70d570-b433-4388-980b-fce91b933e80-1672332481e56a476b-1",
+        "template--14861961166913__dd70d570-b433-4388-980b-fce91b933e80-1672332481e56a476b-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "b2fb5c39-38db-4ec7-acef-9a91edadaa00": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This year, get in the habit of feeling good with daily health routines that naturally support your inner and outer beauty, help balance your gut health, improve the quality of your sleep, and give you the mental focus so you can enjoy being your full self no matter your age or life stage.<\/p>"
+          }
+        },
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-0",
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-1",
+        "template--14562406826049__b2fb5c39-38db-4ec7-acef-9a91edadaa00-16712246820c01994b-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "c45ae942-2a18-4d3e-9afc-18f8efd5849a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14861961166913__c45ae942-2a18-4d3e-9afc-18f8efd5849a-1672332481e56a476b-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "BE RADIANT",
+            "link": "shopify:\/\/pages\/new-year-new-you-radient"
+          }
+        },
+        "template--14861961166913__c45ae942-2a18-4d3e-9afc-18f8efd5849a-1672332481e56a476b-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "BE BALANCED",
+            "link": "shopify:\/\/pages\/new-year-new-you-balance"
+          }
+        },
+        "template--14861961166913__c45ae942-2a18-4d3e-9afc-18f8efd5849a-1672332481e56a476b-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "BE RESTED",
+            "link": "shopify:\/\/pages\/new-year-new-you-rested"
+          }
+        },
+        "de7c1aaa-4a3c-4b4b-bd7b-94488b44aa6e": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "BE FOCUSED",
+            "link": "shopify:\/\/pages\/new-year-new-you-focus"
+          }
+        }
+      },
+      "block_order": [
+        "template--14861961166913__c45ae942-2a18-4d3e-9afc-18f8efd5849a-1672332481e56a476b-0",
+        "template--14861961166913__c45ae942-2a18-4d3e-9afc-18f8efd5849a-1672332481e56a476b-1",
+        "template--14861961166913__c45ae942-2a18-4d3e-9afc-18f8efd5849a-1672332481e56a476b-2",
+        "de7c1aaa-4a3c-4b4b-bd7b-94488b44aa6e"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ae4db809-2ca4-4166-8cfd-58575cf9ae2f": {
+      "type": "image-with-text",
+      "blocks": {
+        "9b9fa6f8-9dec-489d-b3f8-28f2a218bd15": {
+          "type": "caption",
+          "settings": {
+            "caption": "BE BALANCED",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "f87db1dd-345a-4d7b-b3b4-ad19dcd76764": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be your most balanced, centered self.",
+            "heading_size": "h1"
+          }
+        },
+        "template--14562406826049__ae4db809-2ca4-4166-8cfd-58575cf9ae2f-167122468158a6c94c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Find a natural balance for your gut-brain connection.* <\/strong><\/p><p>Every woman knows that hormone changes can upset your stomach. As you enter menopause, decreasing estrogen and progesterone levels disrupt the connection between your gut and your brain. Your digestive microbiome loses balance. Your gut might feel constipated or bloated so your brain can’t focus. You feel stressed out and frustrated.<br\/><br\/>It’s time to bring a natural, stable balance to your gut-brain connection with this Be Balanced kit.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14562406826049__ae4db809-2ca4-4166-8cfd-58575cf9ae2f-167122468158a6c94c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SUBSCRIBE $84 \/ MONTH",
+            "button_link": "https:\/\/bit.ly\/3Cr4wAI"
+          }
+        },
+        "28a9c481-de03-482c-befd-f1d21c505825": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY ONCE $104",
+            "button_link": "http:\/\/bit.ly\/3YUA2AL"
+          }
+        }
+      },
+      "block_order": [
+        "9b9fa6f8-9dec-489d-b3f8-28f2a218bd15",
+        "f87db1dd-345a-4d7b-b3b4-ad19dcd76764",
+        "template--14562406826049__ae4db809-2ca4-4166-8cfd-58575cf9ae2f-167122468158a6c94c-1",
+        "template--14562406826049__ae4db809-2ca4-4166-8cfd-58575cf9ae2f-167122468158a6c94c-2",
+        "28a9c481-de03-482c-befd-f1d21c505825"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HR407214_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "de4eecf3-95e0-45e7-942c-16d0b7d533ed": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ph_probiotic_01_x1_7c05f1c7-3328-440f-bd36-1dee221a8c1d.png",
+            "title": "4-in-1 Probiotic",
+            "text": "<p>Take  4 capsules a day to support your gut health with:<\/p><ul><li>PreforPro® prebiotic blend to balance your microbiome and reduce the growth of bad bacteria in your gut.*<\/li><li>Bacillus subtilis DE11® probiotic to support your digestive functions and nurture a healthy microbiome.*<\/li><li>Postbiotic yeast fermentate to help your body “clean up” wastes created after digestion.* <\/li><li>Broad spectrum digestive enzymes to support your upper-gastrointestinal tract and help you easily digest carbs, proteins and fats.* <\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ph_w7_prod_02.jpg",
+            "title": "Great Morning",
+            "text": "<p>Take 2 <strong>Great Morning<\/strong> gummies for a daily dose of:<\/p><ul><li>Saffron and Genistein to help calm occasional anxiety, help your emotional balance, and cut hot flashes in half within 12 weeks.*‡<\/li><li>Vitamin B6 & B12 to help support production of serotonin, “the feel good hormone” that promotes daily energy to clear brain fog and beat fatigue.*<\/li><\/ul>",
+            "link_label": "",
+            "link": "http:\/\/shop.myphenology.com\/discount\/NEWYOU?redirect=\/cart\/add?items[][id]=40088629411905%26items[][quantity]=1%26items[][selling_plan]=721158209%26items[][id]=40260776951873%26items[][quantity]=1%26items[][selling_plan]=788594753%26return_to=\/checkout"
+          }
+        },
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ph_w5_prod_20_2.jpg",
+            "title": "Peaceful Evening",
+            "text": "<p>Take 2 <strong>Peaceful Evening<\/strong> gummies before you sleep for:<\/p><ul><li>Saffron and Genistein to help  improve your sleep patterns,  and cut night sweats in half within 12 weeks.*‡<\/li><li>Chamomile extract, a complement to saffron and genistein to help calm your mind and body so you can relax, finally.*<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-0",
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-1",
+        "template--14562406826049__de4eecf3-95e0-45e7-942c-16d0b7d533ed-1671224682483298ab-2"
+      ],
+      "settings": {
+        "title": "What's Included",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "SUBSCRIBE NOW $84 \/ MONTH",
+        "button_link": "https:\/\/bit.ly\/3Cr4wAI",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d365c967-98e6-4d89-8b0f-1d0157c12b58": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"The gut and brain are thought to be connected through the gut-brain axis, which is why maintaining a healthy balance of bacteria in the gut can have a powerful impact on cognition and mental health. Prebiotics and probiotics–along with a balanced diet and managing stress and –can support our gut health, nourishing both our body and our mind.\"",
+            "heading_size": "h2"
+          }
+        },
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CHLOE GIRALDI, MS, RD, LDN<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-0",
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-1",
+        "template--14562406826049__d365c967-98e6-4d89-8b0f-1d0157c12b58-167122468158a6c94c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ph_w0_style_09_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "870ea4e7-43f8-48b4-8a9b-96fdb6a095ca": {
+      "type": "image-with-text",
+      "blocks": {
+        "58ae7b11-a392-487f-9ae6-82d2cb66838c": {
+          "type": "caption",
+          "settings": {
+            "caption": "WHY SUBSCRIBE?",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "template--14861961166913__870ea4e7-43f8-48b4-8a9b-96fdb6a095ca-1672332481eda74c21-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Experience the full benefits within 3 months, plus much more...",
+            "heading_size": "h1"
+          }
+        },
+        "template--14861961166913__870ea4e7-43f8-48b4-8a9b-96fdb6a095ca-1672332481eda74c21-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li> 20% OFF EVERY MONTH <\/li><li>FREE GIFT WITH PURCHASE<\/li><li>SUPPORT FROM PHENOLOGY COACHES VIA THE APP<\/li><li>IN-APP SYMPTOM TRACKING<\/li><li>CANCEL AT ANY TIME<\/li><\/ul>",
+            "text_style": "body"
+          }
+        },
+        "template--14861961166913__870ea4e7-43f8-48b4-8a9b-96fdb6a095ca-1672332481eda74c21-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SUBSCRIBE $84 \/ MONTH",
+            "button_link": "https:\/\/bit.ly\/3Cr4wAI"
+          }
+        }
+      },
+      "block_order": [
+        "58ae7b11-a392-487f-9ae6-82d2cb66838c",
+        "template--14861961166913__870ea4e7-43f8-48b4-8a9b-96fdb6a095ca-1672332481eda74c21-0",
+        "template--14861961166913__870ea4e7-43f8-48b4-8a9b-96fdb6a095ca-1672332481eda74c21-1",
+        "template--14861961166913__870ea4e7-43f8-48b4-8a9b-96fdb6a095ca-1672332481eda74c21-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ph_gummy_model.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "96c56c41-b957-4c0c-a574-9b046d9429cb": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14861961166913__96c56c41-b957-4c0c-a574-9b046d9429cb-1672332481e56a476b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ph_app_x2_c204dda7-b5ed-411d-966d-74eba54dfda4.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14861961166913__96c56c41-b957-4c0c-a574-9b046d9429cb-1672332481e56a476b-1": {
+          "type": "column",
+          "settings": {
+            "title": "Coaching",
+            "text": "<p>Phenology’s expert team of Registered Dietitians are available to help you start healthier daily habits and chat about all things nutrition, hormones, and menopause.<br\/><br\/>Just download the Phenology app and tap “Chat with a Coach”.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14861961166913__96c56c41-b957-4c0c-a574-9b046d9429cb-1672332481e56a476b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/discover.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14861961166913__96c56c41-b957-4c0c-a574-9b046d9429cb-1672332481e56a476b-0",
+        "template--14861961166913__96c56c41-b957-4c0c-a574-9b046d9429cb-1672332481e56a476b-1",
+        "template--14861961166913__96c56c41-b957-4c0c-a574-9b046d9429cb-1672332481e56a476b-2"
+      ],
+      "settings": {
+        "title": "Maximize Your Feel Good Habit",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "CHAT WITH A COACH",
+        "button_link": "https:\/\/apps.apple.com\/us\/app\/phenology\/id1619380091",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rewards-page",
+    "dd70d570-b433-4388-980b-fce91b933e80",
+    "b2fb5c39-38db-4ec7-acef-9a91edadaa00",
+    "c45ae942-2a18-4d3e-9afc-18f8efd5849a",
+    "ae4db809-2ca4-4166-8cfd-58575cf9ae2f",
+    "de4eecf3-95e0-45e7-942c-16d0b7d533ed",
+    "d365c967-98e6-4d89-8b0f-1d0157c12b58",
+    "870ea4e7-43f8-48b4-8a9b-96fdb6a095ca",
+    "96c56c41-b957-4c0c-a574-9b046d9429cb"
+  ]
+}

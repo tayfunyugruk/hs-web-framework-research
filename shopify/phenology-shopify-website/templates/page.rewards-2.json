@@ -1,0 +1,100 @@
+{
+  "sections": {
+    "16522835298109ab5c": {
+      "type": "image-banner",
+      "blocks": {
+        "165228352931e49b68-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rewards",
+            "heading_size": "medium"
+          }
+        },
+        "165228352931e49b68-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "165228352931e49b68-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165228352931e49b68-0",
+        "165228352931e49b68-1",
+        "165228352931e49b68-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/test-background.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16522835229f3011ed": {
+      "type": "image-with-text",
+      "blocks": {
+        "1652283521c23bc4d5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "1652283521c23bc4d5-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "subtitle"
+          }
+        },
+        "1652283521c23bc4d5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652283521c23bc4d5-0",
+        "1652283521c23bc4d5-1",
+        "1652283521c23bc4d5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FINAL_SPRING_VIGNETTE_GROUP_020RETOUCHPRIORITY_web-compressed.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "16522835298109ab5c",
+    "16522835229f3011ed"
+  ]
+}
