@@ -2,7 +2,7 @@
   "layout": "tailwind_layout",
   "sections": {
     "main": {
-      "type": "tailwind-test-section"
+      "type": "preact-widget-test"
     }
   },
   "order": [

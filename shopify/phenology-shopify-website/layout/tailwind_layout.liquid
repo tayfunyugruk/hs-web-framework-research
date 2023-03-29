@@ -10,11 +10,14 @@
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     {{ content_for_header }}
+    <script src="{{ 'preact-widget.js' | asset_url }}" type="module" defer></script>
     {{ 'tailwind-test.css' | asset_url | stylesheet_tag }}
     </head>
 
     <body>
         {{ content_for_layout }}
+
+        
     </body>
 </html>
     
